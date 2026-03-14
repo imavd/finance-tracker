@@ -7,7 +7,7 @@ function TransactionsTable({ items = [], onDelete }) {
   }
 
   return (
-      <table className="table" role="table">
+      <table id="table">
         <thead>
           <tr>
             <th>Category</th>

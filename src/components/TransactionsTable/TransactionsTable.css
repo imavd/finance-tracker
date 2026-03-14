@@ -1,25 +1,25 @@
-.table {
+#table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 12px;
   font-size: 0.95rem;
 }
 
-.table th,
-.table td {
+#table th,
+#table td {
   padding: 8px 10px;
   border-bottom: 1px solid #eee;
 }
 
-.table tr.pos {
+#table tr.pos {
   background: #eaffef;
 }
 
-.table tr.neg {
+#table tr.neg {
   background: #fff0f0;
 }
 
-.table th {
+#table th {
   text-align: left;
   color: #333;
   font-weight: 600;
@@ -29,11 +29,11 @@
   font-weight: 700;
 }
 
-.table tr.pos .amount {
+#table tr.pos .amount {
   color: #22863a;
 }
 
-.table tr.neg .amount {
+#table tr.neg .amount {
   color: #b31d1d;
 }
 
@@ -68,12 +68,12 @@
   text-align: center;
 }
 
-.table {
+#table {
   width: 100%;
   border-collapse: separate;
 }
 
-.table thead th {
+#table thead th {
   position: sticky;
   top: 0;
   background: #fff;
