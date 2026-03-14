@@ -1,0 +1,82 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr.pos {
+  background: #eaffef;
+}
+
+.table tr.neg {
+  background: #fff0f0;
+}
+
+.table th {
+  text-align: left;
+  color: #333;
+  font-weight: 600;
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.table tr.pos .amount {
+  color: #22863a;
+}
+
+.table tr.neg .amount {
+  color: #b31d1d;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.delete svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.delete:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: #333;
+}
+
+.category-cell {
+  font-weight: 600;
+}
+
+.remove {
+  width: 48px;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

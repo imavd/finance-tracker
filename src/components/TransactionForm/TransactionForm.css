@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 10px 14px;
+  border: none;
+  background: #0366d6;
+  color: white;
+  border-radius: 6px;
+  align-self: flex-end;
+}
